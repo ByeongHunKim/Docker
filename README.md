@@ -2,7 +2,6 @@
     <h1 align="center">
         Docker
     </h1>
-    <p align="center">study history</p>
 </p>
 
 ## 1. table of contents
