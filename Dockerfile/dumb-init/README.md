@@ -118,3 +118,7 @@ setInterval(() => {
 3. **환경의 예상:** 대부분의 애플리케이션은 PID 1로 실행될 것이라고는 예상하지 않습니다. 따라서, PID 1로 실행될 때 필요한 특별한 동작을 고려하지 않을 수 있습니다.
 
 Docker와 같은 컨테이너 환경에서는 이러한 전제 조건들이 달라집니다. 컨테이너는 격리된 환경에서 동작하기 때문에, 컨테이너 내의 애플리케이션이 PID 1로 실행될 수 있습니다. 따라서, 컨테이너 환경에서는 이러한 특별한 사항들을 고려해야 하는데, **`dumb-init`**와 같은 도구들이 이러한 문제를 해결하기 위해 나온 것입니다.
+
+
+# keyword
+- [prosess signal list](https://www-uxsup.csx.cam.ac.uk/courses/moved.Building/signals.pdf)
